@@ -5,4 +5,4 @@ This repository contains mini-projects and case studies showcasing my advanced k
 
 ## CONTENT
 * **Sample-Superstore Dataset:** A case study demonstrating the benefits of exploratory dashboards using a fictitious financial and geographical dataset available within Tableau’s internal data sources.
-  https://github.com/martell-n-tardy/Excel/tree/main/STP/Pacific%20Brands
+  https://github.com/martell-n-tardy/Data-Visualization/tree/main/Sample-Superstore%20Dataset
