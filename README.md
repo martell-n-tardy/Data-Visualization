@@ -1,5 +1,5 @@
 # Data Visualization
-This repository contains mini-projects and case studies showcasing my advanced knowledge of analytical concepts in the data visualization software Tableau.
+This repository contains mini-projects and case studies showcasing my advanced knowledge of analytical concepts and appropriate data visualization techniques in the software Tableau.
 
 **This repository is in progress. Additional projects and case studies will be uploaded from external platforms by the end of the first quarter of 2022.**
 
