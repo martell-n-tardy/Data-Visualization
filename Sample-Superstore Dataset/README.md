@@ -8,7 +8,7 @@ The dataset used to demonstrate the benefits of exploratory dashboards in this r
 The users of the Sample-Superstore dataset would most likely be people or industries looking to explore questions in regards to financial records, customer behavior, and regional trends. The potential analytical questions within these industries are explored further in the project documentation.
 
 ### Project Demonstration Examples
-![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Sample-Superstore%20Dashboard.png)
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Dashboards/Figure%204.%20Sample-Superstore%20Dashboard.png)
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Dashboards/Figure%208.%20Customer%20Performance%20Dashboard.png)
 
