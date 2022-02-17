@@ -7,4 +7,4 @@ The dataset used to demonstrate the benefits of exploratory dashboards in this r
 ## Purpose
 The users of the Sample-Superstore dataset would most likely be people or industries looking to explore questions in regards to financial records, customer behavior, and regional trends. The potential analytical questions within these industries are explored further in the project documentation.
 
-![](https://github.com/martell-n-tardy/London-Housing-Case-Study/blob/master/RentlyLogo.png)
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Sample-Superstore%20Dashboard.png)
