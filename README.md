@@ -8,7 +8,7 @@ The skills displayed in this repository were strengthened through the reading of
 * **Introduction to Information Visualization (by Riccardo Mazza)**
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Images/Intro%20to%20Info%20Vis.jpg)
 * **Visual Insights (by Katy Borner & David E.Polley)**
-![](
+![]()
 
 ## CONTENT
 * **Sample-Superstore Dataset:** A case study demonstrating the benefits of exploratory dashboards using a fictitious financial and geographical dataset available within Tableau’s internal data sources.
