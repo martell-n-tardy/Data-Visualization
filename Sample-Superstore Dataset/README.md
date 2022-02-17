@@ -9,6 +9,7 @@ The users of the Sample-Superstore dataset would most likely be people or indust
 
 ### Project Demonstration Examples
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Sample-Superstore%20Dashboard.png)
+
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sample-Superstore%20Dataset/Customer%20Performance.png)
 
 
