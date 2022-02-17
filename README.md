@@ -5,6 +5,7 @@ This repository contains mini-projects and case studies showcasing my advanced k
 
 ## Resources
 The skills displayed in this repository were strengthened through the reading of the following books:
+
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Images/Intro%20to%20Info%20Vis.jpg)
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Images/Visual-Insights.jpeg)
 
