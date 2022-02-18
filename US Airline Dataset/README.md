@@ -16,7 +16,7 @@ To create visualizations in Tableau that provide insight into patterns over time
 
 **Question 2:** Which states tend to experience the longest and the shortest departure delays?
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question2.png)
 
 **Question 3:** Which states tend to experience early arrival times? Is there an observable trend in flight arrivals over time?
 
