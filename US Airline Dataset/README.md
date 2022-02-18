@@ -12,7 +12,7 @@ To create visualizations in Tableau that provide insight into patterns over time
 
 **Question 1:** Which two states have the greatest number of flights?
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question1.png)
 
 **Question 2:** Which states tend to experience the longest and the shortest departure delays?
 
