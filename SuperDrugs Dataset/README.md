@@ -11,15 +11,15 @@ To create visualizations in Tableau that provide answers to important business q
 
 ## Business Questions & Visualizations
 
-### Question 1: What pharmacy (Dispensed Pharmacy) and supplier (Drug Supplier) represent the highest profit (Rx Profit) and sales (Rx Dollars) across all regions (Dispensed Regions)?
+### Question 1: What pharmacy and supplier represent the highest profit and sales across all regions?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/Dashboards/Question1.png)
 
-### Question 2: Pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
+### Question 2: Pharmacies in which region are projected to continue showing a positive correlation between strong sales and profit?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/Dashboards/Question2.png)
 
-### Question 3: Within a given market (Market Segment), pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
+### Question 3: Within a given market, pharmacies in which region are projected to continue showing a positive correlation between strong sales and profit?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/Dashboards/Question3.png)
 
