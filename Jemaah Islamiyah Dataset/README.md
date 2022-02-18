@@ -1,72 +1,69 @@
 # Jemaah Islamiyah Dataset
-A case study demonstrating the use of social network analysis techniques to create a network visualization that explores the communication linkages between employees in a sawmill plant that was collected as part of a sociological study (Michael and Massey, 1997). This study was initiated by the management at the sawmill plant because they were having difficulty getting the production workers to accept a new initiative.
+A case study demonstrating the use of social network analysis techniques to create a network visualization that explores the communication structure of information within the terrorists cell Jemaah Islamiyah. Jemaah Islamiyah was responsible for the Bali bombings in 2002. The recording of the interaction of the cell began following the  meeting in the Hotel Harem in Denpasar on October 6, when the group was considered to go ‘operationally covert’, and concluded when the majority of the group had left Bali before the implementation of the operation on October 11, 2002. 
 
 ## Data
-The dataset used to demonstrate the use of social network analysis techniques in this case study is the Sawmill dataset comprised of two CSV files. The *Sawmill[Nodes].csv* file contains 2 columns (ID and Label) with 36 nodes recorded in a mixed graph type. The *Sawmill[Edges].csv* file contains 5 columns (Source, Target, Type, ID, Weight) with 62 edges recorded in a directed graph type. 
+The dataset used for this case study comes from the publication Koschade, Stuart (2006) A Social Network Analysis of Jemaah Islamiyah: The Applications to Counter-Terrorism and Intelligence. Studies in Conflict and Terrorism Vol. 29(6):pp. 559-575. The relationships between terrorists concern who exchanged information with whom (communications exchanges). The valued relations represent the strength of the relations between the individuals, with a score of one signifying the weakest relationship such as a single text message or a financial transaction, and five signifying the strongest relationship such as individuals who resided together, or individuals who had numerous weak contacts over the period in question.
 
-In the dataset, attributes relating to ethnicity/language and section (i.e., location) an employee works within the mill are encoded in the node labels. The label designations include: H = Hispanic; E = English; P = Planer section; M = Mill section; Y = Yard section.
+The data is in format UCINET, CSV and is a 1-mode matrix 17 x 17 person by person, undirected and valued.
 
-The Sawmill dataset is within this repository within the folder titled *Data*, and it can be directly accessed using https://github.com/martell-n-tardy/Data-Visualization/tree/main/Sawmill%20Dataset/Data.
+The Jemaah Islamiyah dataset can be directly accessed from the UCI Network Data Repository: Covert Networks site using https://sites.google.com/site/ucinetsoftware/datasets/covert-networks/jemaah-islamiyah-koschade?authuser=0.
 
 ## Purpose
-To create a network visualization in Gephi that models the communication structure within the sawmill plant and provides insight into the identifying the individual(s) who are best positioned to act as an information broker (i.e., a 'gatekeeper' or liaison) between management and the production workers to effectively help gain the acceptance for their the new initiative. 
+To create a network visualization in Gephi that models the communication structure within the Jemaah Islamiyah cell and provides insight into the identifying structural features and patterns into how a terriost group such as this one communicates efficiently and securely important information within their organization.
 
-## Initializing Social Network 
-### 1. Begin by visualizing the network: Force Atlas 2 layout
-Scaling set to 1000 and stronger gravity option selected
-![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/SawmillNetwork.png)
+## Visualizing Social Network 
+### Fruchterman Reingold Layout
+* Fruchterman Reingold layout was chosen because it gave the clearest view of all nodes within the network with no overlap. 
+* Node size was increased to 15 in order to see all 17 actors within the network clearly. 
+* Labeling was applied so that all actors could be identified by some sort of label or ID during the analysis process.
 
-### 2. Run network metrics
-![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/NetworkMetrics.png)
+![]()
 
-### 3. Run modularity algorithm and color-code node attributes according to Modularity class
-![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/ModularityAlgorithm.png)
+## Visualizing Centralization
+* To explore the centralization of this network the statistical computation of the average degree, average weighted degree and eigenvector centrality were executed within the Gephi software. 
+* To create the final visualization for the centralization of this network I first produced the degree of centrality using the ranking of the nodes by color. The colors were selected based on visibility of range between a pale pink (low centrality score) to dark purple (high centrality score). 
+* Degree centrality does not take in consideration weight, so I ran the same analysis for the eigenvector centrality using the ranking of nodes by the same color scheme again and felt I produced a more accurate depiction of the JI network.
+* Since degree centrality does not take weight into account, only the count of an actor's ties, the calculation of the eigenvector centrality, which does take weight into consideration, is plotted as well for comparison. 
+* In the visualizations below a color scale from lowest (pale pink) to highest (dark purple) centrality is plotted.
 
-### 4. Increase size of nodes and add labels
-![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/LabeledNetwork.png)
+### Degree Centrality
+![]()
 
-## Metric Analysis 
-### Question 1: What is the average degree?
-**Answer:** 1.722
+* SAMUDRA has the highest centrality (dark purple) due to the number of ties this actor has in the network. 
+* Most of the ties within the JI network are between nine individuals marked in colors pink and purple: SAMUDRA (purple), IDRIS (dark pink), MUKLAS (dark pink), IMRON (bright pink), DULMATIN (bright pink), AZAHARI (bright pink), GHONI (bright pink), PATEK (bright pink) and SARIJO (bright pink) and therefore are the central actors in the JI network. 
+* The weaker ties in the network are comprised of eight individuals marked in colors pink and pale pink: FERI ( pink), AMROZI (pale pink), MUBAROK (pale pink), RAUF (pale pink), HIDAYAT (pale pink), JUNAEDI (pale pink), ARNASAN (pale pink) and OCTAVIA (pale pink).
+* Therefore, the observed weaker ties could be actors in the network that can be removed without causing an issue in the distribution of plans or ideas in the JI network. 
+* FERI (pink) shows multiple ties to the group of key actors in bright pink, yet has the lowest score of degree centrality. 
+* This could prove to mean that the removal of FERI causes no negative effect to the flow of information in the network or that FERI's purpose in the network is to have low contact with the rest of the network for a reason unknown. 
 
-### Question 2: What is the network diameter?
-**Answer:** 8
+### Eigenvector Centrality 
+![]()
 
-### Question 3: What is the Modularity value? Is this value indicative of good community structure?
-**Answer:** 0.55 and Yes, because the value is greater than 0.3
+* The strongest ties (high eigenvalue centrality) in the network are still between the nine actors observed in the 'Degree Centrality' figure above. 
+* Since eigenvalue centrality takes the weight of these ties into account, the strength of these ties between the nine should be explored more closely. 
+* These nine key actors can now be placed into clusters or communities to see how the structure of the organization plays a role in the distribution of information throughout the network. 
 
-### Question 4: How many classes are produced?
-**Answer:** 4
+## Visualizing Modularity 
+![]()
 
-### Question 5: What observations can you make on the groupings? 
-**Answer:** 
-* Class 0 makes up 19.44% of the network and contains all of the English-speaking employees in the Planer section and leadership (Forester, Kiln Operator, Mill Manager and Owner) within the organization. 
-* Class 1 makes up 19.44% of the network as well, but contains all the employees in the Yard section and English-speaking Mill section of the organization.
-* Class 2 makes up 30.56% of the network and contains only the Hispanic employees in the Planer section of the organization.
-* Class 3 makes up 30.56% of the network as well and contains only the Hispanic employees in the Mill section of the organization.
+* The modularity of the network was 0.326 and produced three classes. 
+* Class 0 (orange) comprised 29.41% of the network’s connections. 
+* Class 1 (purple) comprised 41.18% of the network’s connections. 
+* Class 2 (green) comprised 29.41% of the network’s connections.
 
-### Question 6: Who has the highest betweenness score? 
-**Answer:** HM-1 (Juan) at 147.0
+### JI Network By Position
+To understand the modularity visual better, the position held by each actor in the network must be presented. In the JI network there are five positions.
+![]()
 
-### Question 7: What are the betweenness and closeness values of the Mill Manager? 
-**Answer:** Betweenness value is 22.833333 and the closeness value is 0.8.
+* The Command Team (MUKLAS, SAMUDRA and IDRIS) and AMROZI and MUBAROK from the Operation Assistants sector held strong communication ties within the network. 
+* IMRON is a part of the Operation Assistants sector as well, but apparently was a strong liaison between Class 0 and Class 1 
+* This is comprised of the Bomb Makers and one of the Suicide Bombers (DULMATIN, SARIJO, PATEK, GHONI, AZAHARI and FERI). 
+* Class 2 comprised of Team Lima and the other Suicide Bomber (RAUF, JUNAEDI, OCTAVIA, HIDAYAT and ARNASAN). 
 
-## Conclusion
-### Observations
-* In the Sawmill Corporation the communication structure has clear groupings based on the criteria of an employee being categorized as English-speaking or Non-English speaking. 
-* English-speaking employees are observed to be grouped together based on the section of the organization they work within. For instance, English-speaking employees in the Mill section of the organization show stronger connections with one another (as seen in blue in the network) and weaker connections to the Hispanic employees in the Mill section (as seen in green in the network) of the organization. 
-* There is a strong connection between the employees in the Yard section of the organization with the English-speaking Mill section of the organization (as seen in blue in the network).
-* Within this organization management and the Planer section of the organization share strong ties and are grouped together in a class of their own (class 0, orange color). 
-* There is a strong grouping of Hispanic employees by the section of the organization they worked within (see the purple and green classes in the network). 
-* There appears to be connections from class 0 to others in the organization, but only to one or two people in the other class groupings. 
-
-### Recommendations
-The area of opportunity for this organization is in decreasing the multiple points of contact between management (in orange) and the other groups in the organization (blue, green and purple). To do this, group orange will need to identify a strong liaison within the network that can transcend the barrier of language and their labeled section within the organization. Looking at the visualization of the network it can be seen that: 
-* HM-1 (Juan) is the only node that already shows connections to each class of the network. 
-* HM-1 (Juan) has strong ties within the Mill section he belongs to and to key employees in all three of the other classes present in the network. 
-* HM-1 (Juan) has the highest Betweenness Centrality by far within the network.
-
-**As a result, I would recommend that the Sawmill plant management choose HM-1 (Juan) as the liaison between management and production workers.**
-
-All network images used in this case study are available within the folder titled *NetworkImages* or can be accessed directly using https://github.com/martell-n-tardy/Data-Visualization/tree/main/Sawmill%20Dataset/NetworkImages.
+## Conclusions
+* No Suicide Bomber shared strong communication ties with any of the Command Team. 
+* It appears FERI was the main Suicide Bomber since there was direct ties with the bomb makers themselves. 
+* ARNASAN appears to be more of a secondary bomber that can be used if an opportunity presented itself to the operations assistants in the field or to the Command Team member SAMUDRA. 
+* SAMUDRA was the most important actor in the network, since he is the only node that shows ties between each class or cluster of nodes in the network. 
+* This makes SAMUDRA the weakest actor in the network, since his removal would cause an immediate breakdown in communication between Team Lima and the Suicide Bomber ARNASAN if SAMUDRA were imprisoned or killed.
 
