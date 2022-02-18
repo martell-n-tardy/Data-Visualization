@@ -21,7 +21,7 @@ Scaling set to 1000 and stronger gravity option selected
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/ModularityAlgorithm.png)
 
 ### 4. Increase size of nodes and add labels
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/LabeledNetwork.png)
 
 ## Metric Analysis 
 ### Question 1: What is the average degree?
