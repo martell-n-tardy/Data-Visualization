@@ -27,7 +27,7 @@ To create a network visualization in Gephi that models the communication structu
 * In the visualizations below a color scale from lowest (pale pink) to highest (dark purple) centrality is plotted.
 
 ### Degree Centrality
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/DegreeCentrality.png)
 
 * SAMUDRA has the highest centrality (dark purple) due to the number of ties this actor has in the network. 
 * Most of the ties within the JI network are between nine individuals marked in colors pink and purple: SAMUDRA (purple), IDRIS (dark pink), MUKLAS (dark pink), IMRON (bright pink), DULMATIN (bright pink), AZAHARI (bright pink), GHONI (bright pink), PATEK (bright pink) and SARIJO (bright pink) and therefore are the central actors in the JI network. 
@@ -37,14 +37,14 @@ To create a network visualization in Gephi that models the communication structu
 * This could prove to mean that the removal of FERI causes no negative effect to the flow of information in the network or that FERI's purpose in the network is to have low contact with the rest of the network for a reason unknown. 
 
 ### Eigenvector Centrality 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/EigenvectorCentrality.png)
 
 * The strongest ties (high eigenvalue centrality) in the network are still between the nine actors observed in the 'Degree Centrality' figure above. 
 * Since eigenvalue centrality takes the weight of these ties into account, the strength of these ties between the nine should be explored more closely. 
 * These nine key actors can now be placed into clusters or communities to see how the structure of the organization plays a role in the distribution of information throughout the network. 
 
 ## Visualizing Modularity 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/ModularityClass.png)
 
 * The modularity of the network was 0.326 and produced three classes. 
 * Class 0 (orange) comprised 29.41% of the network’s connections. 
@@ -53,7 +53,7 @@ To create a network visualization in Gephi that models the communication structu
 
 ### JI Network By Position
 To understand the modularity visual better, the position held by each actor in the network must be presented. In the JI network there are five positions.
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/NetworkPositions.png)
 
 * The Command Team (MUKLAS, SAMUDRA and IDRIS) and AMROZI and MUBAROK from the Operation Assistants sector held strong communication ties within the network. 
 * IMRON is a part of the Operation Assistants sector as well, but apparently was a strong liaison between Class 0 and Class 1 
