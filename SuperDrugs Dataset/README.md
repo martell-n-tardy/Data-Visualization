@@ -5,11 +5,18 @@ A mini case study demonstrating the use of relationship analysis techniques to c
 The dataset used to demonstrate the use of relationship analysis techniques in this report is the SuperDrugs dataset. The SuperDrugs dataset is a fictitious pharmaceutical company. The SuperDrugs dataset contains two sheets in Excel format. Only the sheet titled RX will be utilized.
 
 ## Purpose
-To create visualizations that provide answers to potential business questions of importance to stakeholders in the pharmaceutical industry.
+To create visualizations in Tableau that provide answers to potential important business questions for to stakeholders in the pharmaceutical industry.
 
 ## Business Questions & Visualizations
 
+**Question 1:** What pharmacy (Dispensed Pharmacy) and supplier (Drug Supplier) represent the highest profit (Rx Profit) and sales (Rx Dollars) across all regions (Dispensed Regions)?
+
 ![]()
 
+**Question 2:** Pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
+
+![]()
+
+**Question 3:** Within a given market (Market Segment), pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
 
 ![]()
