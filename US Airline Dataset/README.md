@@ -24,6 +24,6 @@ To create visualizations in Tableau that provide insight into patterns over time
 
 **Question 4:** Which airlines have the best arrival times and which have the worst?
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question4.png)
 
 All dashboard images used in this mini case study are available within the folder titled *Dashboards* or can be accessed directly using https://github.com/martell-n-tardy/Data-Visualization/tree/main/SuperDrugs%20Dataset/Dashboards
