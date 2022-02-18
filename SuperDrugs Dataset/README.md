@@ -19,4 +19,4 @@ To create visualizations in Tableau that provide answers to potential important 
 
 **Question 3:** Within a given market (Market Segment), pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/Dashboards/Question3.png)
