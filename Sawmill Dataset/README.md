@@ -2,13 +2,16 @@
 A case study demonstrating the use of social network analysis techniques to create a network visualization that explores the communication linkages between employees in a sawmill plant that was collected as part of a sociological study (Michael and Massey, 1997). This study was initiated by the management at the sawmill plant because they were having difficulty getting the production workers to accept a new initiative.
 
 ## Data
-The dataset used to demonstrate the use of social network analysis techniques in this case study is the Sawmill dataset comprised of two CSV files. The *Sawmill[Nodes].csv* file contains 2 columns (ID and Label) with 36 nodes recorded in a mixed graph type. The *Sawmill[Edges].csv* file contains 5 columns (Source, Target, Type, ID, Weight) with 62 edges recorded in a directed graph type.
+The dataset used to demonstrate the use of social network analysis techniques in this case study is the Sawmill dataset comprised of two CSV files. The *Sawmill[Nodes].csv* file contains 2 columns (ID and Label) with 36 nodes recorded in a mixed graph type. The *Sawmill[Edges].csv* file contains 5 columns (Source, Target, Type, ID, Weight) with 62 edges recorded in a directed graph type. 
+
+In the dataset, attributes relating to ethnicity/language and section (i.e., location) an employee works within the mill are encoded in the node labels. The label designations include: H = Hispanic; E = English; P = Planer section; M = Mill section; Y = Yard section
 
 ## Purpose
 To create a network visualization in Gephi that models the communication structure within the sawmill plant and provides insight into the identifying the individual(s) who are best positioned to act as an information broker (i.e., a 'gatekeeper' or liaison) between management and the production workers to effectively help gain the acceptance for their the new initiative. 
 
-## Network Visualization
-### 1. Begin by visualizing the network 
+## Initializing Social Network 
+### 1. Begin by visualizing the network: Force Atlas 2 layout
+Scaling set to 1000 and stronger gravity option selected
 ![]()
 
 ### 2. Run network metrics
