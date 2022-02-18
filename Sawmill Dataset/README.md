@@ -4,7 +4,9 @@ A case study demonstrating the use of social network analysis techniques to crea
 ## Data
 The dataset used to demonstrate the use of social network analysis techniques in this case study is the Sawmill dataset comprised of two CSV files. The *Sawmill[Nodes].csv* file contains 2 columns (ID and Label) with 36 nodes recorded in a mixed graph type. The *Sawmill[Edges].csv* file contains 5 columns (Source, Target, Type, ID, Weight) with 62 edges recorded in a directed graph type. 
 
-In the dataset, attributes relating to ethnicity/language and section (i.e., location) an employee works within the mill are encoded in the node labels. The label designations include: H = Hispanic; E = English; P = Planer section; M = Mill section; Y = Yard section
+In the dataset, attributes relating to ethnicity/language and section (i.e., location) an employee works within the mill are encoded in the node labels. The label designations include: H = Hispanic; E = English; P = Planer section; M = Mill section; Y = Yard section.
+
+The Sawmill dataset is within this repository within the folder titled *Data*, and it can be directly accessed using https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/superdrugs-prescriptions.xlsx.
 
 ## Purpose
 To create a network visualization in Gephi that models the communication structure within the sawmill plant and provides insight into the identifying the individual(s) who are best positioned to act as an information broker (i.e., a 'gatekeeper' or liaison) between management and the production workers to effectively help gain the acceptance for their the new initiative. 
