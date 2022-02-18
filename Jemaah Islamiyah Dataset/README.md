@@ -17,7 +17,7 @@ To create a network visualization in Gephi that models the communication structu
 * Node size was increased to 15 in order to see all 17 actors within the network clearly. 
 * Labeling was applied so that all actors could be identified by some sort of label or ID during the analysis process.
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/JI%20Network.png)
 
 ## Visualizing Centralization
 * To explore the centralization of this network the statistical computation of the average degree, average weighted degree and eigenvector centrality were executed within the Gephi software. 
