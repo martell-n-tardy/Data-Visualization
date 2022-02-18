@@ -19,7 +19,7 @@ The skills displayed in this repository were strengthened through the reading of
 https://github.com/martell-n-tardy/Data-Visualization/tree/main/SuperDrugs%20Dataset
 
 ### VISUALIZING SPATIAL RELATIONSHIPS 
-* **US Airline Dataset:** A case study demonstrating the use of spatial relationship analysis techniques to create visualizations that explore flight data for a USA commercial airline. These techniques include: visualizing locations, visualizing a curve path, visualizing regions, visualizing space and time between small multiple charts.
+* **US Airline Dataset:** A mini case study demonstrating the use of spatial relationship analysis techniques to create visualizations that explore flight data for a USA commercial airline. These techniques include: visualizing locations, visualizing a curve path, visualizing regions, visualizing space and time between small multiple charts.
 
 ### NETWORK ANALYSIS: USING GEPHI
 * **Sawmill Dataset:** A case study demonstrating the use of social network analysis techniques to create a network visualization that explores the communication structure within an organization. These techniques include: network analysis, social network analysis (SNA), acyclic graphs (directed), adjacency lists, node level properties and metrics (degree, global centrality metrics, geodesic distance, closeness centrality, etc.), edge attributes and tie strengths (weighted, clusters, cliques, etc.), and group-level network properties (diameter, network density, centralization, etc.).
