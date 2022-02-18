@@ -67,3 +67,4 @@ To understand the modularity visual better, the position held by each actor in t
 * SAMUDRA was the most important actor in the network, since he is the only node that shows ties between each class or cluster of nodes in the network. 
 * This makes SAMUDRA the weakest actor in the network, since his removal would cause an immediate breakdown in communication between Team Lima and the Suicide Bomber ARNASAN if SAMUDRA were imprisoned or killed.
 
+All network images used in this case study are available within the folder titled *NetworkImages* or can be accessed directly using https://github.com/martell-n-tardy/Data-Visualization/tree/main/Sawmill%20Dataset/NetworkImages.
