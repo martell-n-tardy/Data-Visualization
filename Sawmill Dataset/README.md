@@ -61,6 +61,6 @@ The area of opportunity for this organization is in decreasing the multiple poin
 * HM-1 (Juan) has strong ties within the Mill section he belongs to and to key employees in all three of the other classes present in the network. 
 * HM-1 (Juan) has the highest Betweenness Centrality by far within the network.
 
-**As a result, of these observations and calculations I would recommend that the Sawmill plant management choose HM-1 (Juan) as the liaison between management and production workers.**
+**As a result, I would recommend that the Sawmill plant management choose HM-1 (Juan) as the liaison between management and production workers.**
 
 All network images used in this case study are available within the folder titled *NetworkImages* or can be accessed directly using https://github.com/martell-n-tardy/Data-Visualization/tree/main/US%20Airline%20Dataset/Dashboards
