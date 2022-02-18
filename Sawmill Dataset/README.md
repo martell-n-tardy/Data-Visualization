@@ -12,7 +12,7 @@ To create a network visualization in Gephi that models the communication structu
 ## Initializing Social Network 
 ### 1. Begin by visualizing the network: Force Atlas 2 layout
 Scaling set to 1000 and stronger gravity option selected
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/SawmillNetwork.png)
 
 ### 2. Run network metrics
 ![]()
