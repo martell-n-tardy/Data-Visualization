@@ -53,6 +53,7 @@ To create a network visualization in Gephi that models the communication structu
 
 ### JI Network By Position
 To understand the modularity visual better, the position held by each actor in the network must be presented. In the JI network there are five positions.
+
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Jemaah%20Islamiyah%20Dataset/NetworkImages/NetworkPositions.png)
 
 * The Command Team (MUKLAS, SAMUDRA and IDRIS) and AMROZI and MUBAROK from the Operation Assistants sector held strong communication ties within the network. 
