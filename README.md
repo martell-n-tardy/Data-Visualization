@@ -15,7 +15,8 @@ The skills displayed in this repository were strengthened through the reading of
   https://github.com/martell-n-tardy/Data-Visualization/tree/main/Sample-Superstore%20Dataset
 
 ### VISUALIZING RELATIONSHIPS
-* **SuperDrugs Dataset:** A mini case study demonstrating the use of relationship analysis techniques to create visualizations that explore sales data for a pharmaceutical company. These techniques include: multivariate and bivariate plots, box-and-whisker plots, bar charts, scatterplots, and bubble charts
+* **SuperDrugs Dataset:** A mini case study demonstrating the use of relationship analysis techniques to create visualizations that explore sales data for a pharmaceutical company. These techniques include: multivariate and bivariate plots, box-and-whisker plots, bar charts, scatterplots, and bubble charts. 
+https://github.com/martell-n-tardy/Data-Visualization/tree/main/SuperDrugs%20Dataset
 
 ### VISUALIZING SPATIAL RELATIONSHIPS 
 * **US Airline Dataset:** A case study demonstrating the use of spatial relationship analysis techniques to create visualizations that explore flight data for a USA commercial airline. These techniques include: visualizing locations, visualizing a curve path, visualizing regions, visualizing space and time between small multiple charts.
