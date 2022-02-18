@@ -10,19 +10,19 @@ To create visualizations in Tableau that provide insight into patterns over time
 
 ## Business Questions & Visualizations
 
-###**Question 1:** Which two states have the greatest number of flights?
+### **Question 1:** Which two states have the greatest number of flights?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question1.png)
 
-###**Question 2:** Which states tend to experience the longest and the shortest departure delays?
+### **Question 2:** Which states tend to experience the longest and the shortest departure delays?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question2.png)
 
-###**Question 3:** Which states tend to experience early arrival times? Is there an observable trend in flight arrivals over time?
+### **Question 3:** Which states tend to experience early arrival times? Is there an observable trend in flight arrivals over time?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question3.png)
 
-###**Question 4:** Which airlines have the best arrival times and which have the worst?
+### **Question 4:** Which airlines have the best arrival times and which have the worst?
 
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/US%20Airline%20Dataset/Dashboards/Question4.png)
 
