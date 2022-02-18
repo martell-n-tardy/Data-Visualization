@@ -4,10 +4,10 @@ A mini case study demonstrating the use of relationship analysis techniques to c
 ## Data
 The dataset used to demonstrate the use of relationship analysis techniques in this report is the SuperDrugs dataset. The SuperDrugs dataset is a fictitious pharmaceutical company. The SuperDrugs dataset contains two sheets in Excel format. Only the sheet titled RX will be utilized. 
 
-The SuperDrugs dataset is within this repository, titled *superdrugs-prescriptions.xlsx*, and it can be directly accessed and downloaded using https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/superdrugs-prescriptions.xlsx.
+The SuperDrugs dataset is within this repository, titled *superdrugs-prescriptions.xlsx*, and it can be directly accessed using https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/superdrugs-prescriptions.xlsx.
 
 ## Purpose
-To create visualizations in Tableau that provide answers to potential important business questions for stakeholders in the pharmaceutical industry.
+To create visualizations in Tableau that provide answers to important business questions for stakeholders in the pharmaceutical industry.
 
 ## Business Questions & Visualizations
 
