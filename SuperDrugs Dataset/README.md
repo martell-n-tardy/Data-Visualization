@@ -11,7 +11,7 @@ To create visualizations in Tableau that provide answers to potential important 
 
 **Question 1:** What pharmacy (Dispensed Pharmacy) and supplier (Drug Supplier) represent the highest profit (Rx Profit) and sales (Rx Dollars) across all regions (Dispensed Regions)?
 
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/SuperDrugs%20Dataset/Dashboards/Question1.pdf)
 
 **Question 2:** Pharmacies (Dispensed Pharmacy) in which region (Dispensed Regions) are projected to continue showing a positive correlation between strong sales (Rx Dollars) and profit (Rx Profit)?
 
