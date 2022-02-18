@@ -15,7 +15,7 @@ Scaling set to 1000 and stronger gravity option selected
 ![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/SawmillNetwork.png)
 
 ### 2. Run network metrics
-![]()
+![](https://github.com/martell-n-tardy/Data-Visualization/blob/main/Sawmill%20Dataset/NetworkImages/NetworkMetrics.png)
 
 ### 3. Run modularity algorithm and color-code node attributes according to Modularity class
 ![]()
